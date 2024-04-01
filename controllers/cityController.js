@@ -1,17 +1,16 @@
-// cityController.js
+// Example in your cityController.js or a similar file
+const fs = require('fs');
+const path = require('path');
+
 const listCities = (req, res) => {
-    // For now, we'll return a hardcoded list of cities
-    const cities = [
-      { name: 'paris', label: 'Paris' },
-      { name: 'new-york', label: 'New York' },
-      { name: 'tokyo', label: 'Tokyo' },
-      { name: 'sydney', label: 'Sydney' },
-      { name: 'cairo', label: 'Cairo' }
-    ];
-    res.json(cities);
-  };
-  
-  module.exports = {
-    listCities,
-  };
-  
+  const filePath = path.join(__dirname, '..', 'cities.json'); // Adjust the path as necessary
+
+  fs.readFile(filePath, (err, data) => {
+    if (err) {
+      res.status(500).send('Error reading city data');
+      return;
+    }
+    res.json(JSON.parse(data));
+  });
+};
+module.exports = { listCities };

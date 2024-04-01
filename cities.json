@@ -1,0 +1,38 @@
+[
+    {
+      "name": "paris",
+      "label": "Paris",
+      "description": "A romantic city known for its art and architecture.",
+      "lat": 33.44,
+      "lon": -94.04
+    },
+    {
+      "name": "new-york",
+      "label": "New York",
+      "description": "A bustling metropolis famous for its skyline and Broadway shows.",
+      "lat": 40.7128,
+      "lon": 74.0060
+    },
+    {
+      "name": "tokyo",
+      "label": "Tokyo",
+      "description": "A vibrant city known for its fashion and technology.",
+      "lat": 35.6895,
+      "lon": 139.6917
+    },
+    {
+      "name": "sydney",
+      "label": "Sydney",
+      "description": "Known for its Opera House and beautiful beaches.",
+      "lat": -33.8688,
+      "lon": 151.2093
+    },
+    {
+      "name": "cairo",
+      "label": "Cairo",
+      "description": "Home to the Pyramids and rich in history and culture.",
+      "lat": 30.0444,
+      "lon": 31.2357
+    }
+  ]
+  
