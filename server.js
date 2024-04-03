@@ -1,7 +1,6 @@
 const express = require('express');
 const cityRoutes = require('./routes/cityRoutes');
 const weatherRoutes = require('./routes/weatherRoutes');
-const geocodeRoutes = require('./routes/geocodeRoutes');
 const cors = require('cors');
 const app = express();
 
