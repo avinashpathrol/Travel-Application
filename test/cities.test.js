@@ -1,6 +1,6 @@
 // cities.test.js
 const request = require('supertest');
-const app = require('../app'); // Adjust the path according to your structure
+const app = require('../server');
 
 describe('GET /api/cities', () => {
   it('should respond with a list of cities', async () => {
