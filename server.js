@@ -11,7 +11,6 @@ app.use(express.json());
 // API routes
 app.use('/api/cities', cityRoutes);
 app.use('/weather', weatherRoutes);
-//app.use('/geo', geocodeRoutes);
 
 
 const PORT = process.env.PORT || 3001;

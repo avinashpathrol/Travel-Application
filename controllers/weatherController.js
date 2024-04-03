@@ -5,7 +5,6 @@ const fetch = (...args) =>
   import('node-fetch').then(({default: fetch}) => fetch(...args));
 
 const API_KEY = process.env.OPENWEATHERMAP_API_KEY;
-console.log("API_KEY:", API_KEY);
 
 // Function to get coordinates by city name
 const getCoordinatesByCityName = async (cityName) => {
