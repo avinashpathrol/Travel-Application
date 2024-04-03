@@ -1,6 +1,8 @@
 const express = require('express');
 const path = require('path');
-// Other requires...
+const cors = require('cors');
+const cityRoutes = require('../Travel Reservation/routes/cityRoutes');
+const weatherRoutes = require('../Travel Reservation/routes/weatherRoutes');
 
 const app = express();
 
